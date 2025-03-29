@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+    
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgb(159, 3, 107), rgb(128, 0, 60), rgb(113, 0, 128))
+}
+
+.main_card{
+    width: 550px;
+    height: 570px;
+    background-color: aliceblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 5); 
+    position: absolute;
+    top: 5%;
+    left: 33%;
+    padding: 20px 20px 20px 230px;
+    border-radius: 8px;
+}
+
+.main_card .price{
+    margin: 25px 0;
+    color: rgb(229, 23, 208);
+}
+.main_card .price span{
+    font-size: 40px;
+    color: rgb(229, 23, 208);
+    margin-left: 20px;
+}
+.main_card .tag{
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5px;
+    color: rgba(82, 88, 88, 0.501);
+}
+.main_card h2{
+    color: rgb(71, 65, 71);
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: 900;
+}
+
+.main_card .select .s_console{
+    width: 45px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.182);
+}
+.main_card .select .colour{
+    color: rgba(82, 88, 88, 0.501);
+    font-size:13px ;
+    font-weight: bold;
+}
+.main_card .select .s_console{
+    width: 45px;
+    padding: 8;
+    margin: 10px 0;
+    cursor: pointer;
+    border: 1px solid rgb(170, 162, 162);
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3;
+    transition-duration: 0.3s;
+    &:active {transform: scale(0.90);}
+}
+.main_card .select .s_console:hover{
+    transition-duration: 0.3;
+    border: 1px solid rgb(238, 7, 207);
+}
+.main_card .details .heading{
+    font-size: 15;
+    color: rgba(82, 88, 88, 0.501);
+    margin: 10px 0;
+}
+.main_card .details ul li{
+    margin: 8px 0 8px 15px;
+}
+.main_card .btn{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(238, 7, 207);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    text-decoration: none;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 30px;
+    border-radius: 5px;
+    -webkit-transion-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2;
+    transition-duration: 0.2s;
+    &:active {transform: scale(0.97);}
+    
+}
+.main_card .btn:hover{
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+.small_card{
+    width: 300px;
+    height: 500px;
+    background:radial-gradient(rgb(221, 0, 55), rgb(115, 4, 212));
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    padding: 15px;
+    top: 10%;
+    left: 25%;
+    border-radius: 8px;
+    border-bottom: 70px solid azure;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+.small_card .icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 30px;
+    
+ 
+}
+i{
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    &:active {transform: scale(0.80);}
+}
+
+.small_card .image img{
+    width: 400px;
+    height: 380px;
+    position: relative;
+    top: 0px;
+    right: 120px;
+
+}
+.small_card .photo-album{
+    margin-left: 20px;
+}
+.small_card .s_console{
+    width: 45px;
+    height: 45px;
+    padding: 8;
+    margin: 10px 0 0 5px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid rgb(170, 162, 162);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.182);
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3;
+    transition-duration: 0.3s;
+    &:active {transform: scale(0.90);}
+}
+
+.main_card  .s_console{
+    width: 45px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.182);
+}
+.small_card .s_console:hover{
+    border: 1px solid rgb(238, 7, 207);
+    transition-duration: 0.3;
+}
